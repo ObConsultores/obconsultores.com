@@ -25,6 +25,8 @@ import { ErrorComponent } from './components/pages/error/error.component';
 import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privacy-policy.component';
 import { TermsConditionsComponent } from './components/pages/terms-conditions/terms-conditions.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
+import { DerechoPenalComponent } from './components/pages/derecho-penal/derecho-penal.component';
+import { PensionesComponent } from './components/pages/pensiones/pensiones.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +52,9 @@ import { ContactComponent } from './components/pages/contact/contact.component';
     ErrorComponent,
     PrivacyPolicyComponent,
     TermsConditionsComponent,
-    ContactComponent
+    ContactComponent,
+    DerechoPenalComponent,
+    PensionesComponent
   ],
   imports: [
     BrowserModule,

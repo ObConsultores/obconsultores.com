@@ -19,6 +19,8 @@ import { ErrorComponent } from './components/pages/error/error.component';
 import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privacy-policy.component';
 import { TermsConditionsComponent } from './components/pages/terms-conditions/terms-conditions.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
+import { DerechoPenalComponent } from './components/pages/derecho-penal/derecho-penal.component';
+import { PensionesComponent } from './components/pages/pensiones/pensiones.component';
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
@@ -41,6 +43,8 @@ const routes: Routes = [
     {path: 'terms-conditions', component: TermsConditionsComponent},
     {path: 'contact', component: ContactComponent},
     // Here add new pages component
+    {path: 'derecho-penal', component: DerechoPenalComponent},
+    {path: 'pensiones', component: PensionesComponent},
 
     {path: '**', component: ErrorComponent} // This line will remain down from the whole pages component list
 ];
