@@ -21,6 +21,9 @@ import { TermsConditionsComponent } from './components/pages/terms-conditions/te
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { DerechoPenalComponent } from './components/pages/derecho-penal/derecho-penal.component';
 import { PensionesComponent } from './components/pages/pensiones/pensiones.component';
+import { DerechoPrivadoComponent } from './components/pages/derecho-privado/derecho-privado.component';
+import { DerechoLaboralYSeguridadSocialComponent } from './components/pages/derecho-laboral-y-seguridad-social/derecho-laboral-y-seguridad-social.component';
+import { OtrosServiciosComponent } from './components/pages/otros-servicios/otros-servicios.component';
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
@@ -44,7 +47,10 @@ const routes: Routes = [
     {path: 'contact', component: ContactComponent},
     // Here add new pages component
     {path: 'derecho-penal', component: DerechoPenalComponent},
+    {path: 'derecho-privado', component: DerechoPrivadoComponent},
+    {path: 'derecho-laboral-y-seguridad-social', component: DerechoLaboralYSeguridadSocialComponent},
     {path: 'pensiones', component: PensionesComponent},
+    {path: 'otros-servicios', component: OtrosServiciosComponent},
 
     {path: '**', component: ErrorComponent} // This line will remain down from the whole pages component list
 ];
