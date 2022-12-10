@@ -24,6 +24,7 @@ import { DerechoLaboralYSeguridadSocialComponent } from './components/pages/dere
 import { OtrosServiciosComponent } from './components/pages/otros-servicios/otros-servicios.component';
 import { DerechoCivilComercialComponent } from './components/pages/derecho-civil-comercial/derecho-civil-comercial.component';
 import { DerechoDeFamiliaComponent } from './components/pages/derecho-de-familia/derecho-de-familia.component';
+import { DerechoAdministrativoComponent } from './components/pages/derecho-administrativo/derecho-administrativo.component';
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
@@ -51,6 +52,7 @@ const routes: Routes = [
     {path: 'otros-servicios', component: OtrosServiciosComponent},
     {path: 'derecho-civil-y-comercial', component: DerechoCivilComercialComponent},
     {path: 'derecho-de-familia', component: DerechoDeFamiliaComponent},
+    {path: 'derecho-administrativo', component: DerechoAdministrativoComponent},
 
     {path: '**', component: ErrorComponent} // This line will remain down from the whole pages component list
 ];

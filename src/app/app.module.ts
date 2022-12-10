@@ -31,6 +31,7 @@ import { DerechoLaboralYSeguridadSocialComponent } from './components/pages/dere
 import { OtrosServiciosComponent } from './components/pages/otros-servicios/otros-servicios.component';
 import { DerechoCivilComercialComponent } from './components/pages/derecho-civil-comercial/derecho-civil-comercial.component';
 import { DerechoDeFamiliaComponent } from './components/pages/derecho-de-familia/derecho-de-familia.component';
+import { DerechoAdministrativoComponent } from './components/pages/derecho-administrativo/derecho-administrativo.component';
 
 @NgModule({
   declarations: [
@@ -62,6 +63,7 @@ import { DerechoDeFamiliaComponent } from './components/pages/derecho-de-familia
     OtrosServiciosComponent,
     DerechoCivilComercialComponent,
     DerechoDeFamiliaComponent,
+    DerechoAdministrativoComponent,
   ],
   imports: [
     BrowserModule,
