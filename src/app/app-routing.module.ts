@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeOneComponent } from './components/pages/home-one/home-one.component';
 import { HomeTwoComponent } from './components/pages/home-two/home-two.component';
@@ -20,10 +20,10 @@ import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privac
 import { TermsConditionsComponent } from './components/pages/terms-conditions/terms-conditions.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { DerechoPenalComponent } from './components/pages/derecho-penal/derecho-penal.component';
-import { PensionesComponent } from './components/pages/pensiones/pensiones.component';
 import { DerechoLaboralYSeguridadSocialComponent } from './components/pages/derecho-laboral-y-seguridad-social/derecho-laboral-y-seguridad-social.component';
 import { OtrosServiciosComponent } from './components/pages/otros-servicios/otros-servicios.component';
 import { DerechoCivilComercialComponent } from './components/pages/derecho-civil-comercial/derecho-civil-comercial.component';
+import { DerechoDeFamiliaComponent } from './components/pages/derecho-de-familia/derecho-de-familia.component';
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
@@ -48,9 +48,9 @@ const routes: Routes = [
     // Here add new pages component
     {path: 'derecho-penal', component: DerechoPenalComponent},
     {path: 'derecho-laboral-y-seguridad-social', component: DerechoLaboralYSeguridadSocialComponent},
-    {path: 'pensiones', component: PensionesComponent},
     {path: 'otros-servicios', component: OtrosServiciosComponent},
     {path: 'derecho-civil-y-comercial', component: DerechoCivilComercialComponent},
+    {path: 'derecho-de-familia', component: DerechoDeFamiliaComponent},
 
     {path: '**', component: ErrorComponent} // This line will remain down from the whole pages component list
 ];

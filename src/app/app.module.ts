@@ -27,10 +27,10 @@ import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privac
 import { TermsConditionsComponent } from './components/pages/terms-conditions/terms-conditions.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { DerechoPenalComponent } from './components/pages/derecho-penal/derecho-penal.component';
-import { PensionesComponent } from './components/pages/pensiones/pensiones.component';
 import { DerechoLaboralYSeguridadSocialComponent } from './components/pages/derecho-laboral-y-seguridad-social/derecho-laboral-y-seguridad-social.component';
 import { OtrosServiciosComponent } from './components/pages/otros-servicios/otros-servicios.component';
 import { DerechoCivilComercialComponent } from './components/pages/derecho-civil-comercial/derecho-civil-comercial.component';
+import { DerechoDeFamiliaComponent } from './components/pages/derecho-de-familia/derecho-de-familia.component';
 
 @NgModule({
   declarations: [
@@ -58,10 +58,10 @@ import { DerechoCivilComercialComponent } from './components/pages/derecho-civil
     TermsConditionsComponent,
     ContactComponent,
     DerechoPenalComponent,
-    PensionesComponent,
     DerechoLaboralYSeguridadSocialComponent,
     OtrosServiciosComponent,
     DerechoCivilComercialComponent,
+    DerechoDeFamiliaComponent,
   ],
   imports: [
     BrowserModule,
