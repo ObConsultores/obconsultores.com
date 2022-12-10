@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -27,9 +28,9 @@ import { TermsConditionsComponent } from './components/pages/terms-conditions/te
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { DerechoPenalComponent } from './components/pages/derecho-penal/derecho-penal.component';
 import { PensionesComponent } from './components/pages/pensiones/pensiones.component';
-import { DerechoPrivadoComponent } from './components/pages/derecho-privado/derecho-privado.component';
 import { DerechoLaboralYSeguridadSocialComponent } from './components/pages/derecho-laboral-y-seguridad-social/derecho-laboral-y-seguridad-social.component';
 import { OtrosServiciosComponent } from './components/pages/otros-servicios/otros-servicios.component';
+import { DerechoCivilComercialComponent } from './components/pages/derecho-civil-comercial/derecho-civil-comercial.component';
 
 @NgModule({
   declarations: [
@@ -58,15 +59,17 @@ import { OtrosServiciosComponent } from './components/pages/otros-servicios/otro
     ContactComponent,
     DerechoPenalComponent,
     PensionesComponent,
-    DerechoPrivadoComponent,
     DerechoLaboralYSeguridadSocialComponent,
-    OtrosServiciosComponent
+    OtrosServiciosComponent,
+    DerechoCivilComercialComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    {provide: LocationStrategy, useClass: HashLocationStrategy}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
