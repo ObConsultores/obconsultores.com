@@ -5,7 +5,7 @@ $heading-font: 'Playfair Display', serif;
 $transition: .5s all ease;
 $all-size: 16px;
 $white-color: #ffffff;
-$gold-color: #b69d74;
+$gold-color: #d3a343;
 $black-color: #333333;
 
 /*-- Default CSS --*/
@@ -267,10 +267,10 @@ button {
     }
 }
 .banner-bottom {
-    border-top: 30px solid #b69d7459;
-    border-bottom: 30px solid #b69d7459;
-    border-left: 40px solid #b69d7459;
-    border-right: 40px solid #b69d7459;
+    border-top: 30px solid #d3a34359;
+    border-bottom: 30px solid #d3a34359;
+    border-left: 40px solid #d3a34359;
+    border-right: 40px solid #d3a34359;
     display: inline-block;
     position: absolute;
     bottom: -65px;
@@ -1590,7 +1590,7 @@ footer {
         padding-top: 30px;
         padding-bottom: 30px;
         margin-top: 70px;
-        border-top: 1px solid #565655;
+        border-top: 1px solid #d3a343;
         position: relative;
 
         .copyright-item {
@@ -1784,7 +1784,7 @@ footer {
 /*----- Home Page 3 -----*/
 /*-- Home Slider --*/
 .slider-bg-one {
-    background-image: url('assets/img/home-two/home-slider/bg1.jpg');
+    background-image: url('assets/img/home-bg1.jpeg');
 }
 .slider-item {
     background-size: cover;
@@ -1800,7 +1800,7 @@ footer {
         height: 100%;
         top: 0;
         left: 0;
-        background-color: $black-color;
+        // background-color: $black-color;
         opacity: .95;
     }
 }
@@ -1874,7 +1874,7 @@ footer {
         line-height: 60px !important;
         border-radius: 50% !important;
         color: $white-color !important;
-        background-color: #b69d743b !important;
+        background-color: #d3a3433b !important;
         transition: $transition;
 
         &:hover {
@@ -1891,7 +1891,7 @@ footer {
         line-height: 60px !important;
         border-radius: 50% !important;
         color: $white-color !important;
-        background-color: #b69d743b !important;
+        background-color: #d3a3433b !important;
         transition: $transition;
 
         &:hover {
@@ -1930,7 +1930,7 @@ footer {
 /*-- Slider Bottom --*/
 .slider-bottom-area {
     .slider-bottom-wrap {
-        background-color: #b69d7459;
+        background-color: #d3a34359;
         padding-top: 45px;
         padding-bottom: 15px;
         padding-left: 45px;
@@ -2579,7 +2579,7 @@ footer {
                 left: 0;
                 top: 0;
                 z-index: -1;
-                border: 10px solid #b69d74;
+                border: 10px solid #d3a343;
                 background-color: #373535;
             }
         }
@@ -3472,7 +3472,7 @@ footer {
         }
         .nice-select.open .list {
             background-color: $white-color !important;
-            border: 1px solid #b69d74;
+            border: 1px solid #d3a343;
         }
         .nice-select .option {
             color: $black-color;
