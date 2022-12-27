@@ -97,7 +97,7 @@ button {
                     }
                 }
                 a {
-                    font-size: 16px;
+                    font-size: 20px;
                     text-transform: capitalize;
                     position: relative;
 
@@ -406,6 +406,8 @@ button {
             }
             margin-bottom: 25px;
             line-height: 1.4;
+            color: #dea343;
+            text-shadow: -1px 1px 3px #000000;
         }
         p {
             color: $black-color;
@@ -546,6 +548,8 @@ button {
             family: $heading-font;
         }
         margin-bottom: 0;
+        color: #dea343;
+        text-shadow: -1px 1px 3px #000000;
     }
 }
 .practice-area {
