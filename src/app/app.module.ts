@@ -32,6 +32,9 @@ import { OtrosServiciosComponent } from './components/pages/otros-servicios/otro
 import { DerechoCivilComercialComponent } from './components/pages/derecho-civil-comercial/derecho-civil-comercial.component';
 import { DerechoDeFamiliaComponent } from './components/pages/derecho-de-familia/derecho-de-familia.component';
 import { DerechoAdministrativoComponent } from './components/pages/derecho-administrativo/derecho-administrativo.component';
+import { JoimerComponent } from './components/pages/joimer/joimer.component';
+import { NatalieComponent } from './components/pages/natalie/natalie.component';
+import { LuisComponent } from './components/pages/luis/luis.component';
 
 @NgModule({
   declarations: [
@@ -64,6 +67,9 @@ import { DerechoAdministrativoComponent } from './components/pages/derecho-admin
     DerechoCivilComercialComponent,
     DerechoDeFamiliaComponent,
     DerechoAdministrativoComponent,
+    JoimerComponent,
+    NatalieComponent,
+    LuisComponent,
   ],
   imports: [
     BrowserModule,
